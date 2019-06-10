@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:background="@color/fuchsiaColor"
+    tools:context=".MainActivity">
+
+
+    <!-- here main activity xml file for design it will be in linear layout
+    first TextView
+    it will give text about what user should enter in edittext below it-->
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="Messenger"
+        android:textColor="@color/navy"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--inner layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <!-- second TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter email"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <!--for editttext for email to take input for email part-->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textColor="#0000FF"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/textView3"
+            />
+
+        <!--it will give text about what user should enter in edittext below it-->
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:text="Password:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <!--for editttext for email to take input for password part-->
+        <EditText
+            android:id="@+id/passwprd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColor="#0000FF"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!--this is button for log in action-->
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:onClick="btnLoginAction"
+        android:text="Login "
+        android:textColor="#0000FF"
+        android:textStyle="bold"/>
+
+    <!--This is button for register action-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:onClick="btnRegisterAction"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:textColor="#0000FF"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

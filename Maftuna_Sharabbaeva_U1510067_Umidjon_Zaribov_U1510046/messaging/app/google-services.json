@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276441221928",
+    "firebase_url": "https://messaging-fea8d.firebaseio.com",
+    "project_id": "messaging-fea8d",
+    "storage_bucket": "messaging-fea8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276441221928:android:458f0349cc12a876",
+        "android_client_info": {
+          "package_name": "com.example.maftuna.messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276441221928-5issavq11cdap483no0ugbokhh59fi2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maftuna.messaging",
+            "certificate_hash": "649f0a53484b3d010086a4ca33d9b900ae8be482"
+          }
+        },
+        {
+          "client_id": "276441221928-hi29apaqmkbjlp3jv3fo6lie8h0fkm8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VuuZqZG0vNcfpn3nWKr9RO12eDbrBXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276441221928-hi29apaqmkbjlp3jv3fo6lie8h0fkm8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
